@@ -1,0 +1,164 @@
+{
+  "models": [
+    {
+      "id": 1,
+      "brand": "Traxxas",
+      "model": "Slash 2WD",
+      "fullName": "Traxxas Slash 2WD",
+      "scale": "1:10",
+      "drive": "2WD"
+    },
+    {
+      "id": 2,
+      "brand": "Traxxas",
+      "model": "Slash 4x4",
+      "fullName": "Traxxas Slash 4x4",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 3,
+      "brand": "Traxxas",
+      "model": "Slash MVP",
+      "fullName": "Traxxas Slash MVP",
+      "scale": "1:10",
+      "drive": "2WD"
+    },
+    {
+      "id": 4,
+      "brand": "Traxxas",
+      "model": "Rustler 2WD",
+      "fullName": "Traxxas Rustler 2WD",
+      "scale": "1:10",
+      "drive": "2WD"
+    },
+    {
+      "id": 5,
+      "brand": "Traxxas",
+      "model": "Rustler",
+      "fullName": "Traxxas Rustler",
+      "scale": "1:10",
+      "drive": "2WD"
+    },
+    {
+      "id": 6,
+      "brand": "Traxxas",
+      "model": "Maxx",
+      "fullName": "Traxxas Maxx",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 7,
+      "brand": "Traxxas",
+      "model": "X-Maxx",
+      "fullName": "Traxxas X-Maxx",
+      "scale": "1:8",
+      "drive": "4WD"
+    },
+    {
+      "id": 8,
+      "brand": "Traxxas",
+      "model": "Revo 3.3",
+      "fullName": "Traxxas Revo 3.3",
+      "scale": "1:8",
+      "drive": "4WD"
+    },
+    {
+      "id": 9,
+      "brand": "Traxxas",
+      "model": "Jato 4x4",
+      "fullName": "Traxxas Jato 4x4",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 10,
+      "brand": "Traxxas",
+      "model": "Rally ST",
+      "fullName": "Traxxas Rally ST",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 11,
+      "brand": "Traxxas",
+      "model": "Summit",
+      "fullName": "Traxxas Summit",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 12,
+      "brand": "Traxxas",
+      "model": "Slash Ultimate",
+      "fullName": "Traxxas Slash Ultimate",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 13,
+      "brand": "Traxxas",
+      "model": "TRX-4 / TRX4",
+      "fullName": "Traxxas TRX-4 / TRX4",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 14,
+      "brand": "Team Associated",
+      "model": "RC10 T2",
+      "fullName": "Team Associated RC10 T2",
+      "scale": "1:10",
+      "drive": "2WD"
+    },
+    {
+      "id": 15,
+      "brand": "Team Associated",
+      "model": "TT02",
+      "fullName": "Team Associated TT02",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 16,
+      "brand": "Team Associated",
+      "model": "SC10 2",
+      "fullName": "Team Associated SC10 2",
+      "scale": "1:10",
+      "drive": "2WD"
+    },
+    {
+      "id": 17,
+      "brand": "Losi",
+      "model": "Mini 8IGHT",
+      "fullName": "Losi Mini 8IGHT",
+      "scale": "1:14",
+      "drive": "4WD"
+    },
+    {
+      "id": 18,
+      "brand": "Arrma",
+      "model": "Granite 223S",
+      "fullName": "Arrma Granite 223S",
+      "scale": "1:10",
+      "drive": "4WD"
+    },
+    {
+      "id": 19,
+      "brand": "Arrma",
+      "model": "Typhon 6S",
+      "fullName": "Arrma Typhon 6S",
+      "scale": "1:8",
+      "drive": "4WD"
+    },
+    {
+      "id": 20,
+      "brand": "Nitro",
+      "model": "4-Tec",
+      "fullName": "Nitro 4-Tec",
+      "scale": "1:10",
+      "drive": "4WD"
+    }
+  ]
+}

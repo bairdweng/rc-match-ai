@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* 暗黑主题颜色 */
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --bg-tertiary: #2d2d2d;
+  --text-primary: #ffffff;
+  --text-value: #000000;
+  --text-secondary: #b3b3b3;
+  --accent-color: #3b82f6;
+  --accent-hover: #2563eb;
+  
+  color-scheme: dark;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* 科技感效果 */
+.tech-glow {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+}
+
+.tech-gradient {
+  background: linear-gradient(135deg, var(--accent-color), #1d4ed8);
+}
+
+/* 动画效果 */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-hover:hover {
+  animation: pulse 0.6s ease-in-out;
+}
