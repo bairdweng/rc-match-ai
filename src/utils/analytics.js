@@ -4,7 +4,7 @@ export const initGoogleAnalytics = () => {
   
   if (!measurementId || measurementId === 'G-XXXXXXXXXX') {
     console.warn('Google Analytics测量ID未配置，请检查.env文件')
-    return null
+    return false
   }
   
   try {
@@ -14,7 +14,26 @@ export const initGoogleAnalytics = () => {
       return true
     }
     
-    console.log('Google Analytics初始化成功')
+    // 创建dataLayer和gtag函数
+    window.dataLayer = window.dataLayer || []
+    window.gtag = function() {
+      window.dataLayer.push(arguments)
+    }
+    
+    // 添加Google Analytics脚本
+    const script = document.createElement('script')
+    script.async = true
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`
+    document.head.appendChild(script)
+    
+    // 初始化配置
+    gtag('js', new Date())
+    gtag('config', measurementId, {
+      page_location: window.location.href,
+      page_title: document.title
+    })
+    
+    console.log('Google Analytics初始化成功，测量ID:', measurementId)
     return true
   } catch (error) {
     console.error('Google Analytics初始化失败:', error)
