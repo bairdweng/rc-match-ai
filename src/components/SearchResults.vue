@@ -100,6 +100,7 @@ import { NButton, NIcon, NSpin, NEmpty, NTag, useMessage } from 'naive-ui'
 import UpgradeRecordCard from './UpgradeRecordCard.vue'
 import UpgradeRecordDetail from './UpgradeRecordDetail.vue'
 import AddUpgradeForm from './AddUpgradeForm.vue'
+import { trackEvent, trackUpgradeRecord } from '../utils/analytics.js'
 
 export default defineComponent({
   name: 'SearchResults',
@@ -229,16 +230,22 @@ export default defineComponent({
       }
     }
 
-    // 显示详情弹窗
+    // 显示记录详情
     const showRecordDetail = (record) => {
       selectedRecord.value = record
       showDetailModal.value = true
+      
+      // 跟踪查看升级记录事件
+      trackUpgradeRecord('view', record.partType || 'unknown')
     }
 
     // 处理新记录提交
     const handleNewRecord = (newRecord) => {
       // 显示确认提示而不是立即刷新页面
       console.log('New record submitted:', newRecord)
+      
+      // 跟踪添加升级记录事件
+      trackUpgradeRecord('create', newRecord.partType || 'unknown')
       
       // 显示确认消息
       message.success('Submission successful! Your upgrade record is under review and will be visible after approval.')

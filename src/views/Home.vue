@@ -79,6 +79,7 @@ import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { NInput, NButton, NCard, NAutoComplete, NSpin, NDropdown, NMessageProvider, useMessage } from 'naive-ui'
 import CreateForm from '../components/CreateForm.vue'
+import { trackSearch } from '../utils/analytics.js'
 
 export default {
   name: 'Home',
@@ -254,6 +255,9 @@ export default {
 
       // 导航到搜索结果页面 - 只允许配置中的车型
       if (matchedModel) {
+        // 跟踪搜索事件
+        trackSearch(searchQuery.value, 1) // 假设有1个结果
+        
         router.push({
           path: '/search',
           query: { id: matchedModel.id, q: matchedModel.fullName }
@@ -263,6 +267,9 @@ export default {
         message.error('Please select a valid model from the suggestions list')
         searchQuery.value = ''
         searchSuggestions.value = []
+        
+        // 跟踪无结果的搜索事件
+        trackSearch(searchQuery.value, 0)
       }
     }
 
