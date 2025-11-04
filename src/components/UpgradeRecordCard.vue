@@ -17,7 +17,7 @@
       <div class="submitter-info">
         <span class="submitter">{{ record.submitter || 'Anonymous' }}</span>
         <span class="status-badge" :class="{ approved: record.approved, pending: !record.approved }">
-          {{ record.approved ? '✅ Verified' : '⏳ Pending' }}
+          {{ record.approved ? '✅ Verified' : '⏳ Pending Review' }}
         </span>
       </div>
       <div class="timestamp">{{ formatTimestamp(record.timestamp) }}</div>

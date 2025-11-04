@@ -6,7 +6,8 @@
       "model": "Slash 2WD",
       "fullName": "Traxxas Slash 2WD",
       "scale": "1:10",
-      "drive": "2WD"
+      "drive": "2WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "model": "Slash 4x4",
       "fullName": "Traxxas Slash 4x4",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 3,
@@ -22,15 +24,17 @@
       "model": "Slash MVP",
       "fullName": "Traxxas Slash MVP",
       "scale": "1:10",
-      "drive": "2WD"
+      "drive": "2WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 4,
       "brand": "Traxxas",
-      "model": "Rustler 2WD",
-      "fullName": "Traxxas Rustler 2WD",
+      "model": "Rustler 4x4",
+      "fullName": "Traxxas Rustler 4x4",
       "scale": "1:10",
-      "drive": "2WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "model": "Rustler",
       "fullName": "Traxxas Rustler",
       "scale": "1:10",
-      "drive": "2WD"
+      "drive": "2WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "model": "Maxx",
       "fullName": "Traxxas Maxx",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "model": "X-Maxx",
       "fullName": "Traxxas X-Maxx",
       "scale": "1:8",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "model": "Revo 3.3",
       "fullName": "Traxxas Revo 3.3",
       "scale": "1:8",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "model": "Jato 4x4",
       "fullName": "Traxxas Jato 4x4",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "model": "Rally ST",
       "fullName": "Traxxas Rally ST",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 11,
@@ -86,7 +96,8 @@
       "model": "Summit",
       "fullName": "Traxxas Summit",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 12,
@@ -94,7 +105,8 @@
       "model": "Slash Ultimate",
       "fullName": "Traxxas Slash Ultimate",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 13,
@@ -102,7 +114,8 @@
       "model": "TRX-4 / TRX4",
       "fullName": "Traxxas TRX-4 / TRX4",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://traxxas.com"
     },
     {
       "id": 14,
@@ -110,7 +123,8 @@
       "model": "RC10 T2",
       "fullName": "Team Associated RC10 T2",
       "scale": "1:10",
-      "drive": "2WD"
+      "drive": "2WD",
+      "url": "https://www.associatedelectrics.com"
     },
     {
       "id": 15,
@@ -118,7 +132,8 @@
       "model": "TT02",
       "fullName": "Team Associated TT02",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://www.associatedelectrics.com"
     },
     {
       "id": 16,
@@ -126,7 +141,8 @@
       "model": "SC10 2",
       "fullName": "Team Associated SC10 2",
       "scale": "1:10",
-      "drive": "2WD"
+      "drive": "2WD",
+      "url": "https://www.associatedelectrics.com"
     },
     {
       "id": 17,
@@ -134,7 +150,8 @@
       "model": "Mini 8IGHT",
       "fullName": "Losi Mini 8IGHT",
       "scale": "1:14",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://www.losi.com"
     },
     {
       "id": 18,
@@ -142,7 +159,8 @@
       "model": "Granite 223S",
       "fullName": "Arrma Granite 223S",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://www.arrma-rc.com"
     },
     {
       "id": 19,
@@ -150,7 +168,8 @@
       "model": "Typhon 6S",
       "fullName": "Arrma Typhon 6S",
       "scale": "1:8",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://www.arrma-rc.com"
     },
     {
       "id": 20,
@@ -158,7 +177,8 @@
       "model": "4-Tec",
       "fullName": "Nitro 4-Tec",
       "scale": "1:10",
-      "drive": "4WD"
+      "drive": "4WD",
+      "url": "https://www.horizonhobby.com"
     }
   ]
 }

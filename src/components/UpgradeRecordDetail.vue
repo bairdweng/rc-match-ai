@@ -1,5 +1,5 @@
 <template>
-  <n-modal v-model:show="visible" :mask-closable="true">
+  <n-modal :show="localVisible" :mask-closable="true" @update:show="handleClose">
     <n-card
       style="width: 600px; max-width: 90vw;"
       :bordered="false"
@@ -58,8 +58,8 @@
           <div class="info-row">
             <span class="label">Status:</span>
             <span class="value">
-              <n-tag :type="record.approved ? 'success' : 'warning'">
-                {{ record.approved ? '✅ Verified' : '⏳ Pending Review' }}
+              <n-tag :type="isApproved(record.approved) ? 'success' : 'warning'">
+                {{ isApproved(record.approved) ? '✅ Verified' : '⏳ Pending Review' }}
               </n-tag>
             </span>
           </div>
@@ -89,7 +89,7 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent, ref, watch } from 'vue'
 import { NModal, NCard, NButton, NTag } from 'naive-ui'
 
 export default defineComponent({
@@ -111,6 +111,24 @@ export default defineComponent({
     }
   },
   emits: ['update:visible'],
+  setup(props, { emit }) {
+    const localVisible = ref(props.visible)
+    
+    // Watch for changes to the prop and update local value
+    watch(() => props.visible, (newValue) => {
+      localVisible.value = newValue
+    })
+    
+    // Handle modal close event
+    const handleClose = () => {
+      emit('update:visible', false)
+    }
+    
+    return {
+      localVisible,
+      handleClose
+    }
+  },
   methods: {
     formatTimestamp(timestamp) {
       if (!timestamp) return 'Unknown'
@@ -131,7 +149,12 @@ export default defineComponent({
     },
     
     close() {
-      this.$emit('update:visible', false)
+      this.handleClose()
+    },
+    
+    isApproved(approvedValue) {
+      // Handle both boolean true/false and numeric 1/0 values
+      return approvedValue === true || approvedValue === 1
     }
   }
 })

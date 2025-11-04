@@ -25,7 +25,30 @@
           </div>
         </div>
         
-        <div class="header-actions">
+        <!-- 品牌官网跳转按钮 -->
+        <div class="brand-website-section" v-if="currentModel?.url">
+          <n-button 
+            type="primary" 
+            size="large" 
+            @click="openBrandWebsite"
+            class="brand-website-btn"
+            ghost
+          >
+            <template #icon>
+              <n-icon>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </n-icon>
+            </template>
+            Visit {{ currentModel?.brand }} Website
+          </n-button>
+        </div>
+        
+        <!-- 隐藏提交表单入口 -->
+        <!-- <div class="header-actions">
           <n-button 
             type="primary" 
             size="large" 
@@ -41,7 +64,7 @@
             </template>
             Add Upgrade Record
           </n-button>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -55,10 +78,7 @@
       <div v-else-if="upgradeRecords.length === 0" class="empty-state">
         <n-empty description="No upgrade records found">
           <template #extra>
-            <p class="empty-text">Be the first to share upgrade experience for this model!</p>
-            <n-button type="primary" @click="showAddFormModal = true">
-              Add First Upgrade Record
-            </n-button>
+            <p class="empty-text">No upgrade parts available for this model yet.</p>
           </template>
         </n-empty>
       </div>
@@ -83,13 +103,14 @@
       @update:visible="showDetailModal = false"
     />
 
-    <AddUpgradeForm
+    <!-- 隐藏提交表单 -->
+    <!-- <AddUpgradeForm
       :model-name="currentModel?.fullName || searchQuery"
       :model-id="currentModel?.id"
       :visible="showAddFormModal"
       @update:visible="showAddFormModal = false"
       @submitted="handleNewRecord"
-    />
+    /> -->
   </div>
 </template>
 
@@ -97,10 +118,12 @@
 import { defineComponent, ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { NButton, NIcon, NSpin, NEmpty, NTag, useMessage } from 'naive-ui'
+import { queryHotPartsFromDatabase } from '../utils/databaseApi.js'
 import UpgradeRecordCard from './UpgradeRecordCard.vue'
 import UpgradeRecordDetail from './UpgradeRecordDetail.vue'
-import AddUpgradeForm from './AddUpgradeForm.vue'
-import { trackEvent, trackUpgradeRecord } from '../utils/analytics.js'
+
+// 导入车型数据
+import configData from '../data/config.json'
 
 export default defineComponent({
   name: 'SearchResults',
@@ -111,8 +134,7 @@ export default defineComponent({
     NEmpty,
     NTag,
     UpgradeRecordCard,
-    UpgradeRecordDetail,
-    AddUpgradeForm
+    UpgradeRecordDetail
   },
   setup() {
     const route = useRoute()
@@ -123,35 +145,8 @@ export default defineComponent({
     const upgradeRecords = ref([])
     const loading = ref(false)
     const showDetailModal = ref(false)
-    const showAddFormModal = ref(false)
     const selectedRecord = ref(null)
 
-    // 导入车型数据
-    const configData = {
-      models: [
-        { id: 1, brand: "Traxxas", model: "Slash 2WD", fullName: "Traxxas Slash 2WD", scale: "1:10", drive: "2WD" },
-        { id: 2, brand: "Traxxas", model: "Slash 4x4", fullName: "Traxxas Slash 4x4", scale: "1:10", drive: "4WD" },
-        { id: 3, brand: "Traxxas", model: "Slash MVP", fullName: "Traxxas Slash MVP", scale: "1:10", drive: "2WD" },
-        { id: 4, brand: "Traxxas", model: "Rustler 2WD", fullName: "Traxxas Rustler 2WD", scale: "1:10", drive: "2WD" },
-        { id: 5, brand: "Traxxas", model: "Rustler", fullName: "Traxxas Rustler", scale: "1:10", drive: "2WD" },
-        { id: 6, brand: "Traxxas", model: "Maxx", fullName: "Traxxas Maxx", scale: "1:10", drive: "4WD" },
-        { id: 7, brand: "Traxxas", model: "X-Maxx", fullName: "Traxxas X-Maxx", scale: "1:8", drive: "4WD" },
-        { id: 8, brand: "Traxxas", model: "Revo 3.3", fullName: "Traxxas Revo 3.3", scale: "1:8", drive: "4WD" },
-        { id: 9, brand: "Traxxas", model: "Jato 4x4", fullName: "Traxxas Jato 4x4", scale: "1:8", drive: "4WD" },
-        { id: 10, brand: "Traxxas", model: "Rally ST", fullName: "Traxxas Rally ST", scale: "1:10", drive: "4WD" },
-        { id: 11, brand: "Traxxas", model: "Summit", fullName: "Traxxas Summit", scale: "1:10", drive: "4WD" },
-        { id: 12, brand: "Traxxas", model: "Slash Ultimate", fullName: "Traxxas Slash Ultimate", scale: "1:10", drive: "4WD" },
-        { id: 13, brand: "Traxxas", model: "TRX-4 / TRX4", fullName: "Traxxas TRX-4 / TRX4", scale: "1:10", drive: "4WD" },
-        { id: 14, brand: "Team Associated", model: "RC10 T2", fullName: "Team Associated RC10 T2", scale: "1:10", drive: "2WD" },
-        { id: 15, brand: "Team Associated", model: "TT02", fullName: "Team Associated TT02", scale: "1:10", drive: "4WD" },
-        { id: 16, brand: "Team Associated", model: "SC10 2", fullName: "Team Associated SC10 2", scale: "1:10", drive: "2WD" },
-        { id: 17, brand: "Losi", model: "Mini 8IGHT", fullName: "Losi Mini 8IGHT", scale: "1:14", drive: "4WD" },
-        { id: 18, brand: "Arrma", model: "Granite 223S", fullName: "Arrma Granite 223S", scale: "1:10", drive: "4WD" },
-        { id: 19, brand: "Arrma", model: "Typhon 6S", fullName: "Arrma Typhon 6S", scale: "1:8", drive: "4WD" },
-        { id: 20, brand: "Nitro", model: "4-Tec", fullName: "Nitro 4-Tec", scale: "1:10", drive: "4WD" }
-      ]
-    }
-    
     // 车型数据
     const allModels = configData.models
 
@@ -172,14 +167,11 @@ export default defineComponent({
       )
     }
 
-    // 加载升级记录
-    const loadUpgradeRecords = async (modelName) => {
+    // 加载升级记录 - 使用本地数据库数据
+    const loadUpgradeRecords = async (modelId) => {
       loading.value = true
       
       try {
-        // 获取当前车型的ID
-        const modelId = currentModel.value?.id || ''
-        
         if (!modelId) {
           console.error('无法获取车型ID')
           upgradeRecords.value = []
@@ -187,75 +179,61 @@ export default defineComponent({
           return
         }
         
-        // 调用Google Apps Script API进行搜索 - 只使用ID
-        const searchUrl = `https://script.google.com/macros/s/AKfycbwRZzDYt_1K3oga0k7Bbu8QvdHTF-p4jEzgsMJzhYJva3G6431sf0BNPT0_vDl19pxv/exec?action=search&id=${encodeURIComponent(modelId)}`
+        // 从SQLite数据库查询配件数据
+        const hotPartsData = await queryHotPartsFromDatabase(parseInt(modelId))
         
-        console.log('正在搜索升级记录:', searchUrl)
+        // 转换为前端格式
+        upgradeRecords.value = hotPartsData.map(part => ({
+          id: part.id,
+          model: currentModel.value?.fullName || '',
+          part: part.part,
+          upgrade_spec: part.upgrade_spec,
+          reason: part.reason,
+          difficulty: part.difficulty,
+          submitter: part.submitter,
+          approved: part.approved === true || part.approved === 1,
+          timestamp: part.timestamp,
+          source: part.source
+        }))
         
-        const response = await fetch(searchUrl)
-        const result = await response.json()
-        
-        console.log('搜索响应:', result)
-        
-        if (result.status === 'success') {
-          // 转换Google表格数据为前端格式，并只显示已审核通过的记录
-          upgradeRecords.value = result.results
-            .map(item => ({
-              id: item.rowNumber,
-              model: item.data.model,
-              part: item.data.part,
-              upgrade_spec: item.data.upgrade_spec,
-              reason: item.data.reason,
-              difficulty: parseInt(item.data.difficulty) || 3,
-              submitter: item.data.submitter || 'Anonymous',
-              approved: item.data.approved === 'TRUE' || item.data.approved === true,
-              timestamp: item.data.timestamp,
-              source: item.data.source
-            }))
-            .filter(record => record.approved) // 只显示已审核通过的记录
-          
-          console.log('转换后的升级记录 (只显示已审核的):', upgradeRecords.value)
-        } else {
-          console.error('搜索失败:', result.message)
-          upgradeRecords.value = []
-        }
+        console.log('加载的配件数据:', upgradeRecords.value)
         
       } catch (error) {
-        console.error('Error loading升级记录:', error)
-        // API调用失败，显示空结果
+        console.error('Error loading配件数据:', error)
         upgradeRecords.value = []
-        message.error('搜索失败，请检查网络连接后重试')
+        message.error('加载配件数据失败')
       } finally {
         loading.value = false
       }
     }
 
-    // 显示记录详情
+    // 显示详情弹窗
     const showRecordDetail = (record) => {
       selectedRecord.value = record
       showDetailModal.value = true
-      
-      // 跟踪查看升级记录事件
-      trackUpgradeRecord('view', record.partType || 'unknown')
     }
 
-    // 处理新记录提交
-    const handleNewRecord = (newRecord) => {
-      // 显示确认提示而不是立即刷新页面
-      console.log('New record submitted:', newRecord)
-      
-      // 跟踪添加升级记录事件
-      trackUpgradeRecord('create', newRecord.partType || 'unknown')
-      
-      // 显示确认消息
-      message.success('Submission successful! Your upgrade record is under review and will be visible after approval.')
-      
-      // 关闭添加表单
-      showAddFormModal.value = false
-      
-      // 注意：不立即刷新页面，等待管理员审核
-      // 用户可以在审核通过后手动刷新页面查看记录
+    // 打开品牌官网
+    const openBrandWebsite = () => {
+      if (currentModel.value?.url) {
+        window.open(currentModel.value.url, '_blank', 'noopener,noreferrer')
+      }
     }
+
+    // 处理新记录提交（已禁用）
+    // const handleNewRecord = (newRecord) => {
+    //   // 显示确认提示而不是立即刷新页面
+    //   console.log('New record submitted:', newRecord)
+    //   
+    //   // 显示确认消息
+    //   message.success('Submission successful! Your upgrade record is under review and will be visible after approval.')
+    //   
+    //   // 关闭添加表单
+    //   showAddFormModal.value = false
+    //   
+    //   // 注意：不立即刷新页面，等待管理员审核
+    //   // 用户可以在审核通过后手动刷新页面查看记录
+    // }
 
     onMounted(() => {
       // 从路由参数获取车型ID
@@ -270,10 +248,11 @@ export default defineComponent({
             model: foundModel.model,
             fullName: foundModel.fullName,
             scale: foundModel.scale,
-            drive: foundModel.drive
+            drive: foundModel.drive,
+            url: foundModel.url
           }
           // 加载该车型的升级记录
-          loadUpgradeRecords(foundModel.fullName)
+          loadUpgradeRecords(foundModel.id)
         }
       } else if (route.query.q) {
         // 向后兼容：处理旧的名称查询
@@ -288,10 +267,11 @@ export default defineComponent({
             model: foundModel.model,
             fullName: foundModel.fullName,
             scale: foundModel.scale,
-            drive: foundModel.drive
+            drive: foundModel.drive,
+            url: foundModel.url
           }
           // 加载该车型的升级记录
-          loadUpgradeRecords(foundModel.fullName)
+          loadUpgradeRecords(foundModel.id)
         }
       }
     })
@@ -302,11 +282,10 @@ export default defineComponent({
       upgradeRecords,
       loading,
       showDetailModal,
-      showAddFormModal,
       selectedRecord,
       router,
       showRecordDetail,
-      handleNewRecord
+      openBrandWebsite
     }
   }
 })
@@ -408,6 +387,29 @@ export default defineComponent({
 .add-record-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(240, 147, 251, 0.5);
+}
+
+/* 品牌官网按钮样式 */
+.brand-website-section {
+  flex-shrink: 0;
+}
+
+.brand-website-btn {
+  background: linear-gradient(135deg, #00b09b 0%, #96c93d 100%);
+  border: none;
+  border-radius: 15px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 176, 155, 0.3);
+  color: white !important;
+}
+
+.brand-website-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 176, 155, 0.5);
+  background: linear-gradient(135deg, #00a08b 0%, #8bb832 100%);
 }
 
 /* Upgrade Records Container */

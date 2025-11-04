@@ -1,0 +1,3404 @@
+{
+  "upgradeRecords": [
+    {
+      "id": 10,
+      "modelId": 1,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun XR8 SCT",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.hobbywing.com",
+      "submitter": "Race Champion",
+      "timestamp": "2024-04-20 12:10:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 9,
+      "modelId": 1,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://traxxas.com",
+      "submitter": "Night Runner",
+      "timestamp": "2024-04-15 18:20:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 8,
+      "modelId": 1,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.gpmracing.com.hk",
+      "submitter": "Chassis Expert",
+      "timestamp": "2024-04-05 10:45:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 7,
+      "modelId": 1,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Badlands 2.2\" Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.prolineracing.com",
+      "submitter": "Tire Guru",
+      "timestamp": "2024-03-25 15:30:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 6,
+      "modelId": 1,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://traxxas.com",
+      "submitter": "Wheelie King",
+      "timestamp": "2024-03-10 13:50:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 5,
+      "modelId": 1,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://traxxas.com",
+      "submitter": "Suspension Pro",
+      "timestamp": "2024-03-01 11:20:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 4,
+      "modelId": 1,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing Aluminum A-Arms",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.amainhobbies.com",
+      "submitter": "Bash Master",
+      "timestamp": "2024-02-12 16:40:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 3,
+      "modelId": 1,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox SW-1210SG Waterproof Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.savoxusa.com",
+      "submitter": "Servo Specialist",
+      "timestamp": "2024-02-05 09:15:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 2,
+      "modelId": 1,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder SCT 3800KV",
+      "reason": "Massive power upgrade from stock brushed motor",
+      "difficulty": 3,
+      "source": "https://www.castlecreations.com",
+      "submitter": "Speed Demon",
+      "timestamp": "2024-01-20 14:25:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 1,
+      "modelId": 1,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending during hard landings",
+      "difficulty": 2,
+      "source": "https://www.amainhobbies.com",
+      "submitter": "RC Pro Basher",
+      "timestamp": "2024-01-15 10:30:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 2WD",
+        "fullName": "Traxxas Slash 2WD"
+      }
+    },
+    {
+      "id": 20,
+      "modelId": 2,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Brace Set",
+      "reason": "Reduces flex in 4x4 chassis",
+      "difficulty": 3,
+      "source": "https://www.gpmracing.com.hk",
+      "submitter": "Chassis Expert",
+      "timestamp": "2024-04-18 12:40:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 19,
+      "modelId": 2,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Mamba X ESC",
+      "reason": "High performance for 4x4 applications",
+      "difficulty": 3,
+      "source": "https://www.castlecreations.com",
+      "submitter": "Speed Demon",
+      "timestamp": "2024-04-10 15:15:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 18,
+      "modelId": 2,
+      "part": "Chassis Skid Plate",
+      "upgrade_spec": "Traxxas Skid Plate",
+      "reason": "Protects chassis during rough terrain",
+      "difficulty": 1,
+      "source": "https://traxxas.com",
+      "submitter": "Off-Road Expert",
+      "timestamp": "2024-04-02 11:50:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 17,
+      "modelId": 2,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Trencher 2.8\" Tires",
+      "reason": "Excellent traction for 4x4 off-road",
+      "difficulty": 1,
+      "source": "https://www.prolineracing.com",
+      "submitter": "Tire Guru",
+      "timestamp": "2024-03-20 14:30:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 16,
+      "modelId": 2,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Durable arms for aggressive 4x4 driving",
+      "difficulty": 2,
+      "source": "https://www.amainhobbies.com",
+      "submitter": "Bash Master",
+      "timestamp": "2024-03-12 16:05:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 15,
+      "modelId": 2,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Ultra Shocks",
+      "reason": "Improved suspension for 4x4 handling",
+      "difficulty": 2,
+      "source": "https://traxxas.com",
+      "submitter": "Suspension Pro",
+      "timestamp": "2024-03-05 09:25:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 14,
+      "modelId": 2,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox SW-0231MG Servo",
+      "reason": "High torque for precise 4x4 steering",
+      "difficulty": 2,
+      "source": "https://www.savoxusa.com",
+      "submitter": "Servo Specialist",
+      "timestamp": "2024-02-15 13:40:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 13,
+      "modelId": 2,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Towers",
+      "reason": "Enhanced durability for 4x4 applications",
+      "difficulty": 2,
+      "source": "https://www.amainhobbies.com",
+      "submitter": "RC Pro Basher",
+      "timestamp": "2024-02-08 10:15:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 12,
+      "modelId": 2,
+      "part": "Center Differential",
+      "upgrade_spec": "Traxxas Center Diff Upgrade",
+      "reason": "Better power distribution to all wheels",
+      "difficulty": 4,
+      "source": "https://traxxas.com",
+      "submitter": "Drivetrain Pro",
+      "timestamp": "2024-01-25 14:50:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 11,
+      "modelId": 2,
+      "part": "Heavy Duty Driveshafts",
+      "upgrade_spec": "Traxxas 6851X Steel CVD Driveshafts",
+      "reason": "Essential for 4x4 systems under high torque",
+      "difficulty": 3,
+      "source": "https://traxxas.com",
+      "submitter": "4WD Expert",
+      "timestamp": "2024-01-18 11:35:00",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash 4x4",
+        "fullName": "Traxxas Slash 4x4"
+      }
+    },
+    {
+      "id": 30,
+      "modelId": 3,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-25 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 23,
+      "modelId": 3,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-22 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 26,
+      "modelId": 3,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-07 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 21,
+      "modelId": 3,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-26 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 27,
+      "modelId": 3,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 28,
+      "modelId": 3,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 29,
+      "modelId": 3,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-11 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 22,
+      "modelId": 3,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-08 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 24,
+      "modelId": 3,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-05 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 25,
+      "modelId": 3,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash MVP",
+        "fullName": "Traxxas Slash MVP"
+      }
+    },
+    {
+      "id": 33,
+      "modelId": 4,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 36,
+      "modelId": 4,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-05 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 34,
+      "modelId": 4,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 32,
+      "modelId": 4,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-21 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 31,
+      "modelId": 4,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-17 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 39,
+      "modelId": 4,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 37,
+      "modelId": 4,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 38,
+      "modelId": 4,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-11 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 40,
+      "modelId": 4,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 35,
+      "modelId": 4,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler 2WD",
+        "fullName": "Traxxas Rustler 2WD"
+      }
+    },
+    {
+      "id": 48,
+      "modelId": 5,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-18 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 43,
+      "modelId": 5,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-10 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 42,
+      "modelId": 5,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-08 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 46,
+      "modelId": 5,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 45,
+      "modelId": 5,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-22 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 47,
+      "modelId": 5,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-26 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 49,
+      "modelId": 5,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-19 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 50,
+      "modelId": 5,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 41,
+      "modelId": 5,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 44,
+      "modelId": 5,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rustler",
+        "fullName": "Traxxas Rustler"
+      }
+    },
+    {
+      "id": 60,
+      "modelId": 6,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 59,
+      "modelId": 6,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 53,
+      "modelId": 6,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-17 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 54,
+      "modelId": 6,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-17 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 57,
+      "modelId": 6,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 52,
+      "modelId": 6,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-02 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 56,
+      "modelId": 6,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 51,
+      "modelId": 6,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-13 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 55,
+      "modelId": 6,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 58,
+      "modelId": 6,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Maxx",
+        "fullName": "Traxxas Maxx"
+      }
+    },
+    {
+      "id": 70,
+      "modelId": 7,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 62,
+      "modelId": 7,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-12 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 61,
+      "modelId": 7,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-05 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 66,
+      "modelId": 7,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-24 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 64,
+      "modelId": 7,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-17 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 69,
+      "modelId": 7,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-08 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 63,
+      "modelId": 7,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 65,
+      "modelId": 7,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 67,
+      "modelId": 7,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 68,
+      "modelId": 7,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-31 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "X-Maxx",
+        "fullName": "Traxxas X-Maxx"
+      }
+    },
+    {
+      "id": 73,
+      "modelId": 8,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-20 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 80,
+      "modelId": 8,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-10 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 71,
+      "modelId": 8,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-24 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 75,
+      "modelId": 8,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-04 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 74,
+      "modelId": 8,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-27 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 77,
+      "modelId": 8,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-20 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 76,
+      "modelId": 8,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-19 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 79,
+      "modelId": 8,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-04 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 78,
+      "modelId": 8,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-31 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 72,
+      "modelId": 8,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Revo 3.3",
+        "fullName": "Traxxas Revo 3.3"
+      }
+    },
+    {
+      "id": 84,
+      "modelId": 9,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-27 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 88,
+      "modelId": 9,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-27 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 90,
+      "modelId": 9,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-04 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 82,
+      "modelId": 9,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 85,
+      "modelId": 9,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-21 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 83,
+      "modelId": 9,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-19 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 81,
+      "modelId": 9,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-13 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 87,
+      "modelId": 9,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-05 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 89,
+      "modelId": 9,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 86,
+      "modelId": 9,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-19 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Jato 4x4",
+        "fullName": "Traxxas Jato 4x4"
+      }
+    },
+    {
+      "id": 91,
+      "modelId": 10,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-26 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 92,
+      "modelId": 10,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-21 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 94,
+      "modelId": 10,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-20 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 98,
+      "modelId": 10,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-18 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 100,
+      "modelId": 10,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 97,
+      "modelId": 10,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-06 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 99,
+      "modelId": 10,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-27 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 96,
+      "modelId": 10,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-16 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 95,
+      "modelId": 10,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 93,
+      "modelId": 10,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Rally ST",
+        "fullName": "Traxxas Rally ST"
+      }
+    },
+    {
+      "id": 105,
+      "modelId": 11,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-11-04 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 102,
+      "modelId": 11,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-25 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 104,
+      "modelId": 11,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-16 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 106,
+      "modelId": 11,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 108,
+      "modelId": 11,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-23 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 109,
+      "modelId": 11,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-18 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 103,
+      "modelId": 11,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 110,
+      "modelId": 11,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 107,
+      "modelId": 11,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 101,
+      "modelId": 11,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-31 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Summit",
+        "fullName": "Traxxas Summit"
+      }
+    },
+    {
+      "id": 111,
+      "modelId": 12,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-23 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 119,
+      "modelId": 12,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-11 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 117,
+      "modelId": 12,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 112,
+      "modelId": 12,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-26 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 116,
+      "modelId": 12,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-10 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 115,
+      "modelId": 12,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-08 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 120,
+      "modelId": 12,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 113,
+      "modelId": 12,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-27 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 118,
+      "modelId": 12,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-18 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 114,
+      "modelId": 12,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "Slash Ultimate",
+        "fullName": "Traxxas Slash Ultimate"
+      }
+    },
+    {
+      "id": 123,
+      "modelId": 13,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-11-02 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 127,
+      "modelId": 13,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-09 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 126,
+      "modelId": 13,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-04 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 129,
+      "modelId": 13,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-20 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 130,
+      "modelId": 13,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-18 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 124,
+      "modelId": 13,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-17 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 121,
+      "modelId": 13,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-12 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 122,
+      "modelId": 13,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 125,
+      "modelId": 13,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-12 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 128,
+      "modelId": 13,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-02 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Traxxas",
+        "model": "TRX-4 / TRX4",
+        "fullName": "Traxxas TRX-4 / TRX4"
+      }
+    },
+    {
+      "id": 132,
+      "modelId": 14,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-11-04 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 134,
+      "modelId": 14,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 139,
+      "modelId": 14,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-10 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 133,
+      "modelId": 14,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-09 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 135,
+      "modelId": 14,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-24 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 136,
+      "modelId": 14,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-21 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 137,
+      "modelId": 14,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-21 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 140,
+      "modelId": 14,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 138,
+      "modelId": 14,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-12 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 131,
+      "modelId": 14,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "RC10 T2",
+        "fullName": "Team Associated RC10 T2"
+      }
+    },
+    {
+      "id": 144,
+      "modelId": 15,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-11-02 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 148,
+      "modelId": 15,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 146,
+      "modelId": 15,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-12 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 142,
+      "modelId": 15,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-11 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 150,
+      "modelId": 15,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-09 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 149,
+      "modelId": 15,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-08 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 143,
+      "modelId": 15,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 141,
+      "modelId": 15,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-02 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 147,
+      "modelId": 15,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 145,
+      "modelId": 15,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-29 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "TT02",
+        "fullName": "Team Associated TT02"
+      }
+    },
+    {
+      "id": 155,
+      "modelId": 16,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 156,
+      "modelId": 16,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-23 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 153,
+      "modelId": 16,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 158,
+      "modelId": 16,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 160,
+      "modelId": 16,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 154,
+      "modelId": 16,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 157,
+      "modelId": 16,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-20 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 151,
+      "modelId": 16,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-02 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 159,
+      "modelId": 16,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-24 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 152,
+      "modelId": 16,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-22 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Team Associated",
+        "model": "SC10 2",
+        "fullName": "Team Associated SC10 2"
+      }
+    },
+    {
+      "id": 169,
+      "modelId": 17,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-11-04 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 164,
+      "modelId": 17,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-11-03 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 162,
+      "modelId": 17,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-26 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 166,
+      "modelId": 17,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 163,
+      "modelId": 17,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-13 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 170,
+      "modelId": 17,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-05 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 167,
+      "modelId": 17,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 168,
+      "modelId": 17,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-24 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 165,
+      "modelId": 17,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-08 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 161,
+      "modelId": 17,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-14 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Losi",
+        "model": "Mini 8IGHT",
+        "fullName": "Losi Mini 8IGHT"
+      }
+    },
+    {
+      "id": 171,
+      "modelId": 18,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 172,
+      "modelId": 18,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-20 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 174,
+      "modelId": 18,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-07 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 175,
+      "modelId": 18,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-27 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 177,
+      "modelId": 18,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-26 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 176,
+      "modelId": 18,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-19 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 178,
+      "modelId": 18,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-09 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 179,
+      "modelId": 18,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 173,
+      "modelId": 18,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-31 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 180,
+      "modelId": 18,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-07-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Granite 223S",
+        "fullName": "Arrma Granite 223S"
+      }
+    },
+    {
+      "id": 186,
+      "modelId": 19,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-07 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 187,
+      "modelId": 19,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-06 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 184,
+      "modelId": 19,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 185,
+      "modelId": 19,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-28 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 183,
+      "modelId": 19,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-21 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 188,
+      "modelId": 19,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-18 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 190,
+      "modelId": 19,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-16 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 182,
+      "modelId": 19,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-15 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 189,
+      "modelId": 19,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-07 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 181,
+      "modelId": 19,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-06 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Arrma",
+        "model": "Typhon 6S",
+        "fullName": "Arrma Typhon 6S"
+      }
+    },
+    {
+      "id": 192,
+      "modelId": 20,
+      "part": "Brushless Motor System",
+      "upgrade_spec": "Castle Creations Sidewinder System",
+      "reason": "Massive power upgrade from stock motor",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 195,
+      "modelId": 20,
+      "part": "Oil-Filled Shocks",
+      "upgrade_spec": "Traxxas Big Bore Shock Set",
+      "reason": "Better suspension performance and consistency",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-26 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 194,
+      "modelId": 20,
+      "part": "Aluminum A-Arms",
+      "upgrade_spec": "GPM Racing A-Arms Set",
+      "reason": "Enhanced durability for bashing and racing",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-22 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 200,
+      "modelId": 20,
+      "part": "Upgraded ESC",
+      "upgrade_spec": "Hobbywing Xerun ESC",
+      "reason": "Advanced programming for racing applications",
+      "difficulty": 4,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-20 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 197,
+      "modelId": 20,
+      "part": "Upgraded Tires",
+      "upgrade_spec": "Pro-Line Performance Tires",
+      "reason": "Superior traction on various surfaces",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-11 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 198,
+      "modelId": 20,
+      "part": "Aluminum Chassis Brace",
+      "upgrade_spec": "GPM Racing Chassis Brace",
+      "reason": "Reduces chassis flex for better handling",
+      "difficulty": 3,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-10-05 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 191,
+      "modelId": 20,
+      "part": "Aluminum Shock Towers",
+      "upgrade_spec": "GPM Racing Aluminum Upgrade Set",
+      "reason": "Dramatically improves durability and prevents bending",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-30 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 193,
+      "modelId": 20,
+      "part": "Upgraded Servo",
+      "upgrade_spec": "Savox High Torque Servo",
+      "reason": "Improved steering response and torque",
+      "difficulty": 2,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-27 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 196,
+      "modelId": 20,
+      "part": "Wheelie Bar",
+      "upgrade_spec": "Traxxas Wheelie Bar Kit",
+      "reason": "Prevents flipping during acceleration",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-09-01 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    },
+    {
+      "id": 199,
+      "modelId": 20,
+      "part": "LED Light Kit",
+      "upgrade_spec": "Traxxas LED Light System",
+      "reason": "Enhanced visibility for night running",
+      "difficulty": 1,
+      "source": "https://www.rcupgrades.com",
+      "submitter": "RC Upgrade Expert",
+      "timestamp": "2025-08-05 06:12:08",
+      "approved": true,
+      "modelInfo": {
+        "brand": "Nitro",
+        "model": "4-Tec",
+        "fullName": "Nitro 4-Tec"
+      }
+    }
+  ]
+}

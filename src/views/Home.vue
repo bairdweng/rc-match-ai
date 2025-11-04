@@ -15,6 +15,46 @@
         <section class="hero-section">
           <h1 class="hero-title">Stop buying the wrong parts.</h1>
           <p class="hero-subtitle">Find the perfect match instantly.</p>
+          
+          <!-- Project Introduction -->
+          <div class="project-intro">
+            <div class="intro-card">
+              <h2>🚀 Solving Core Pain Points for RC Enthusiasts</h2>
+              <div class="pain-points">
+                <div class="pain-point">
+                  <span class="icon">💸</span>
+                  <div>
+                    <h3>Save Money</h3>
+                    <p>Buying wrong parts? Compatibility issues? RC Match AI helps you avoid unnecessary expenses</p>
+                  </div>
+                </div>
+                <div class="pain-point">
+                  <span class="icon">⏰</span>
+                  <div>
+                    <h3>Save Time</h3>
+                    <p>No more spending hours researching forums and reviews - get the best upgrade solutions instantly</p>
+                  </div>
+                </div>
+                <div class="pain-point">
+                  <span class="icon">🔧</span>
+                  <div>
+                    <h3>Expert Advice</h3>
+                    <p>Based on real user experiences and AI analysis, providing the most reliable part recommendations</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="ai-update-section">
+                <h3>🤖 AI-Powered Data Updates</h3>
+                <p>Our database is regularly updated using AI technology to ensure you get the latest part information and upgrade recommendations</p>
+              </div>
+              
+              <div class="contact-section">
+                <p>Questions or suggestions? Contact us:</p>
+                <a href="mailto:bairdweng@gmail.com" class="contact-link">📧 bairdweng@gmail.com</a>
+              </div>
+            </div>
+          </div>
         </section>
 
         <!-- Search Section -->
@@ -75,7 +115,7 @@
 </template>
 
 <script>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { NInput, NButton, NCard, NAutoComplete, NSpin, NDropdown, NMessageProvider, useMessage } from 'naive-ui'
 import CreateForm from '../components/CreateForm.vue'
@@ -116,50 +156,34 @@ export default {
       console.log('Form opened via URL parameter')
     }
 
-    // 从config.json加载所有模型数据
-    const allModels = ref([])
+    // 车型数据
+    const allModels = ref([
+      { id: 1, brand: "Traxxas", model: "Slash 2WD", fullName: "Traxxas Slash 2WD", scale: "1:10", drive: "2WD" },
+      { id: 2, brand: "Traxxas", model: "Slash 4x4", fullName: "Traxxas Slash 4x4", scale: "1:10", drive: "4WD" },
+      { id: 3, brand: "Traxxas", model: "Slash MVP", fullName: "Traxxas Slash MVP", scale: "1:10", drive: "2WD" },
+      { id: 4, brand: "Traxxas", model: "Rustler 2WD", fullName: "Traxxas Rustler 2WD", scale: "1:10", drive: "2WD" },
+      { id: 5, brand: "Traxxas", model: "Rustler", fullName: "Traxxas Rustler", scale: "1:10", drive: "2WD" },
+      { id: 6, brand: "Traxxas", model: "Maxx", fullName: "Traxxas Maxx", scale: "1:10", drive: "4WD" },
+      { id: 7, brand: "Traxxas", model: "X-Maxx", fullName: "Traxxas X-Maxx", scale: "1:8", drive: "4WD" },
+      { id: 8, brand: "Traxxas", model: "Revo 3.3", fullName: "Traxxas Revo 3.3", scale: "1:8", drive: "4WD" },
+      { id: 9, brand: "Traxxas", model: "Jato 4x4", fullName: "Traxxas Jato 4x4", scale: "1:8", drive: "4WD" },
+      { id: 10, brand: "Traxxas", model: "Rally ST", fullName: "Traxxas Rally ST", scale: "1:10", drive: "4WD" },
+      { id: 11, brand: "Traxxas", model: "Summit", fullName: "Traxxas Summit", scale: "1:10", drive: "4WD" },
+      { id: 12, brand: "Traxxas", model: "Slash Ultimate", fullName: "Traxxas Slash Ultimate", scale: "1:10", drive: "4WD" },
+      { id: 13, brand: "Traxxas", model: "TRX-4 / TRX4", fullName: "Traxxas TRX-4 / TRX4", scale: "1:10", drive: "4WD" },
+      { id: 14, brand: "Team Associated", model: "RC10 T2", fullName: "Team Associated RC10 T2", scale: "1:10", drive: "2WD" },
+      { id: 15, brand: "Team Associated", model: "TT02", fullName: "Team Associated TT02", scale: "1:10", drive: "4WD" },
+      { id: 16, brand: "Team Associated", model: "SC10 2", fullName: "Team Associated SC10 2", scale: "1:10", drive: "2WD" },
+      { id: 17, brand: "Losi", model: "Mini 8IGHT", fullName: "Losi Mini 8IGHT", scale: "1:14", drive: "4WD" },
+      { id: 18, brand: "Arrma", model: "Granite 223S", fullName: "Arrma Granite 223S", scale: "1:10", drive: "4WD" },
+      { id: 19, brand: "Arrma", model: "Typhon 6S", fullName: "Arrma Typhon 6S", scale: "1:8", drive: "4WD" },
+      { id: 20, brand: "Nitro", model: "4-Tec", fullName: "Nitro 4-Tec", scale: "1:10", drive: "4WD" }
+    ])
     
-    // 在组件挂载时加载所有模型数据
-    const loadAllModels = async () => {
-      try {
-        // 导入新的config.json格式
-        const configData = {
-          models: [
-            { id: 1, brand: "Traxxas", model: "Slash 2WD", fullName: "Traxxas Slash 2WD", scale: "1:10", drive: "2WD" },
-            { id: 2, brand: "Traxxas", model: "Slash 4x4", fullName: "Traxxas Slash 4x4", scale: "1:10", drive: "4WD" },
-            { id: 3, brand: "Traxxas", model: "Slash MVP", fullName: "Traxxas Slash MVP", scale: "1:10", drive: "2WD" },
-            { id: 4, brand: "Traxxas", model: "Rustler 2WD", fullName: "Traxxas Rustler 2WD", scale: "1:10", drive: "2WD" },
-            { id: 5, brand: "Traxxas", model: "Rustler", fullName: "Traxxas Rustler", scale: "1:10", drive: "2WD" },
-            { id: 6, brand: "Traxxas", model: "Maxx", fullName: "Traxxas Maxx", scale: "1:10", drive: "4WD" },
-            { id: 7, brand: "Traxxas", model: "X-Maxx", fullName: "Traxxas X-Maxx", scale: "1:8", drive: "4WD" },
-            { id: 8, brand: "Traxxas", model: "Revo 3.3", fullName: "Traxxas Revo 3.3", scale: "1:8", drive: "4WD" },
-            { id: 9, brand: "Traxxas", model: "Jato 4x4", fullName: "Traxxas Jato 4x4", scale: "1:8", drive: "4WD" },
-            { id: 10, brand: "Traxxas", model: "Rally ST", fullName: "Traxxas Rally ST", scale: "1:10", drive: "4WD" },
-            { id: 11, brand: "Traxxas", model: "Summit", fullName: "Traxxas Summit", scale: "1:10", drive: "4WD" },
-            { id: 12, brand: "Traxxas", model: "Slash Ultimate", fullName: "Traxxas Slash Ultimate", scale: "1:10", drive: "4WD" },
-            { id: 13, brand: "Traxxas", model: "TRX-4 / TRX4", fullName: "Traxxas TRX-4 / TRX4", scale: "1:10", drive: "4WD" },
-            { id: 14, brand: "Team Associated", model: "RC10 T2", fullName: "Team Associated RC10 T2", scale: "1:10", drive: "2WD" },
-            { id: 15, brand: "Team Associated", model: "TT02", fullName: "Team Associated TT02", scale: "1:10", drive: "4WD" },
-            { id: 16, brand: "Team Associated", model: "SC10 2", fullName: "Team Associated SC10 2", scale: "1:10", drive: "2WD" },
-            { id: 17, brand: "Losi", model: "Mini 8IGHT", fullName: "Losi Mini 8IGHT", scale: "1:14", drive: "4WD" },
-            { id: 18, brand: "Arrma", model: "Granite 223S", fullName: "Arrma Granite 223S", scale: "1:10", drive: "4WD" },
-            { id: 19, brand: "Arrma", model: "Typhon 6S", fullName: "Arrma Typhon 6S", scale: "1:8", drive: "4WD" },
-            { id: 20, brand: "Nitro", model: "4-Tec", fullName: "Nitro 4-Tec", scale: "1:10", drive: "4WD" }
-          ]
-        }
-        
-        console.log('Config data loaded:', configData)
-        console.log('Models:', configData.models)
-        
-        allModels.value = configData.models
-        console.log('Loaded models from config.json:', allModels.value)
-      } catch (error) {
-        console.error('Error loading models:', error)
-      }
-    }
-    
-    // 组件挂载时加载模型数据
-    loadAllModels()
+    // 组件挂载时初始化
+    onMounted(() => {
+      console.log('Home组件已挂载，车型数据已初始化')
+    })
 
     // 处理输入变化，生成搜索建议
     const handleInputChange = () => {
@@ -397,6 +421,106 @@ export default {
   font-size: 1.2rem;
   color: var(--text-secondary);
   margin-bottom: 2rem;
+}
+
+/* Project Introduction */
+.project-intro {
+  margin-top: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+.intro-card h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--accent-color);
+}
+
+.pain-points {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.pain-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pain-point .icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.pain-point h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.pain-point p {
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.ai-update-section {
+  background: rgba(25, 118, 210, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--accent-color);
+}
+
+.ai-update-section h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.ai-update-section p {
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.contact-section {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-section p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.contact-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #64b5f6;
+  text-decoration: underline;
 }
 
 /* Search Section */
