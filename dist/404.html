@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RC Match AI</title>
+    <script>
+      // GitHub Pages SPA路由重定向
+      const pathSegments = window.location.pathname.split('/').filter(Boolean);
+      const basePath = '/rc-match-ai/';
+      
+      // 如果是直接访问子路由，重定向到主页面
+      if (pathSegments.length > 1 || (pathSegments.length === 1 && pathSegments[0] !== 'rc-match-ai')) {
+        // 保存当前路径信息
+        const path = window.location.pathname.replace(basePath, '');
+        const search = window.location.search;
+        const hash = window.location.hash;
+        
+        // 重定向到主页面，并传递路由信息
+        const redirectUrl = basePath + '?redirect=' + encodeURIComponent(path + search + hash);
+        window.location.replace(redirectUrl);
+      } else {
+        // 直接加载应用
+        window.location.replace(basePath);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      // 如果重定向参数存在，处理路由
+      const urlParams = new URLSearchParams(window.location.search);
+      const redirectPath = urlParams.get('redirect');
+      
+      if (redirectPath) {
+        // 应用加载后恢复路由
+        window.addEventListener('load', function() {
+          setTimeout(() => {
+            window.history.replaceState(null, '', basePath + redirectPath);
+          }, 100);
+        });
+      }
+    </script>
+  </body>
+</html>
