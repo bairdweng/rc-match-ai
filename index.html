@@ -70,6 +70,51 @@
     
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="ljW6giDgWMt9rMgbl54J-ZdSgoK4Uu-2EtFib0B5t6w" />
+    
+    <!-- Redirect to AircMate -->
+    <script>
+      // 立即重定向到 AircMate
+      (function() {
+        const currentUrl = window.location.href;
+        const newBaseUrl = 'https://bairdweng.github.io/aircmate/';
+        
+        console.log('当前URL:', currentUrl);
+        console.log('目标URL:', newBaseUrl);
+        
+        // 如果当前URL包含rc-match-ai，或者当前在bairdweng.github.io但不包含aircmate，则重定向
+        if (currentUrl.includes('rc-match-ai') || 
+            (currentUrl.includes('bairdweng.github.io') && !currentUrl.includes('aircmate'))) {
+          console.log('检测到需要重定向，正在跳转到 AircMate...');
+          
+          // 保留路径参数
+          const currentPath = window.location.pathname;
+          const currentSearch = window.location.search;
+          const currentHash = window.location.hash;
+          
+          let redirectUrl = newBaseUrl;
+          
+          // 如果不是根路径，保留路径信息
+          if (currentPath !== '/' && currentPath !== '/rc-match-ai/' && currentPath !== '/rc-match-ai') {
+            redirectUrl = newBaseUrl + currentPath.replace('/rc-match-ai', '').substring(1);
+          }
+          
+          if (currentSearch) {
+            redirectUrl += currentSearch;
+          }
+          
+          if (currentHash) {
+            redirectUrl += currentHash;
+          }
+          
+          console.log('最终重定向URL:', redirectUrl);
+          
+          // 使用replace而不是assign，避免浏览器历史记录
+          window.location.replace(redirectUrl);
+        } else {
+          console.log('无需重定向，当前已在 AircMate 或本地开发环境');
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="app"></div>
