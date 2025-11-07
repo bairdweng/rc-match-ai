@@ -24,6 +24,16 @@ const routes = [
     }
   },
   {
+    path: '/search/:brand/:model',
+    name: 'BrandModelSearch',
+    component: SearchResults,
+    props: true,
+    meta: {
+      title: 'RC Upgrade Parts Search Results - RC Match AI',
+      description: 'Find the best upgrade parts for your RC model. Browse verified parts with AI-powered recommendations.'
+    }
+  },
+  {
     path: '/models/:modelId',
     name: 'ModelDetails',
     component: SearchResults,
@@ -55,7 +65,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/rc-match-ai/'),
+  history: createWebHistory('/aircmate/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
@@ -82,7 +92,7 @@ router.afterEach((to, from) => {
   // 更新canonical URL
   const canonicalLink = document.querySelector('link[rel="canonical"]')
   if (canonicalLink) {
-    const baseUrl = 'https://bairdweng.github.io/rc-match-ai'
+    const baseUrl = 'https://bairdweng.github.io/aircmate'
     canonicalLink.setAttribute('href', baseUrl + to.path)
   }
   

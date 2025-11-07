@@ -17,6 +17,8 @@
         :key="index"
         class="result-card tech-glow"
         :bordered="false"
+        @click="navigateToModel(result)"
+        style="cursor: pointer;"
       >
         <div class="result-content">
           <!-- Model Header -->
@@ -100,6 +102,7 @@
 
 <script>
 import { computed } from 'vue'
+import { useRouter } from 'vue-router'
 import { NCard, NSkeleton, NEmpty, NTable, NTag } from 'naive-ui'
 
 export default {
@@ -126,6 +129,16 @@ export default {
     }
   },
   setup(props) {
+    const router = useRouter()
+    
+    // 导航到车型详情页
+    const navigateToModel = (model) => {
+      // 生成语义化URL：/search/brand/model
+      const brandSlug = model.brand.toLowerCase().replace(/\s+/g, '-')
+      const modelSlug = model.model.toLowerCase().replace(/\s+/g, '-')
+      
+      router.push(`/search/${brandSlug}/${modelSlug}`)
+    }
     const hasResults = computed(() => props.results && props.results.length > 0)
     
     const formatUpgradeOption = (option) => {
@@ -283,7 +296,8 @@ export default {
       getTableGroups,
       formatGroupTitle,
       formatSubGroupTitle,
-      hasBasicFields
+      hasBasicFields,
+      navigateToModel
     }
   }
 }

@@ -221,11 +221,12 @@ export default {
       searchQuery.value = suggestion.fullName
       searchSuggestions.value = []
       
-      // 直接导航到搜索结果页面，使用车型ID
-      router.push({
-        path: '/search',
-        query: { id: suggestion.id, q: suggestion.fullName }
-      })
+      // 生成语义化URL：/search/brand/model-name
+      const brandSlug = suggestion.brand.toLowerCase().replace(/\s+/g, '-')
+      const modelSlug = suggestion.model.toLowerCase().replace(/\s+/g, '-')
+      
+      // 导航到语义化URL
+      router.push(`/search/${brandSlug}/${modelSlug}`)
     }
 
     // 查找详细模型数据
@@ -282,10 +283,12 @@ export default {
         // 跟踪搜索事件
         trackSearch(searchQuery.value, 1) // 假设有1个结果
         
-        router.push({
-          path: '/search',
-          query: { id: matchedModel.id, q: matchedModel.fullName }
-        })
+        // 生成语义化URL：/search/brand/model-name
+        const brandSlug = matchedModel.brand.toLowerCase().replace(/\s+/g, '-')
+        const modelSlug = matchedModel.model.toLowerCase().replace(/\s+/g, '-')
+        
+        // 导航到语义化URL
+        router.push(`/search/${brandSlug}/${modelSlug}`)
       } else {
         // 如果没有找到匹配的车型，显示错误提示
         message.error('Please select a valid model from the suggestions list')
@@ -322,10 +325,12 @@ export default {
 
         // 导航到搜索结果页面 - 只允许配置中的车型
         if (matchedModel) {
-          router.push({
-            path: '/search',
-            query: { id: matchedModel.id, q: matchedModel.fullName }
-          })
+          // 生成语义化URL：/search/brand/model-name
+          const brandSlug = matchedModel.brand.toLowerCase().replace(/\s+/g, '-')
+          const modelSlug = matchedModel.model.toLowerCase().replace(/\s+/g, '-')
+          
+          // 导航到语义化URL
+          router.push(`/search/${brandSlug}/${modelSlug}`)
         } else {
           // 如果没有找到匹配的车型，显示错误提示
           message.error('Please select a valid model from the suggestions list')

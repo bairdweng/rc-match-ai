@@ -1,6 +1,6 @@
-# RC车型升级记录管理系统
+# AircMate - AI驱动的RC车型升级配件查找器
 
-一个用于管理RC车型升级记录的Vue 3单页应用。
+一个用于查找RC车型升级配件的AI驱动Vue 3单页应用。
 
 ## 🚀 功能特性
 
@@ -14,7 +14,7 @@
 
 ### 第一步：上传代码到现有仓库
 
-如果您已经有 `rc-match-ai` 仓库，直接推送代码：
+如果您已经有 `aircmate` 仓库，直接推送代码：
 
 ```bash
 # 初始化Git仓库（如果尚未初始化）
@@ -27,7 +27,7 @@ git add .
 git commit -m "feat: 添加RC车型升级记录管理系统"
 
 # 添加远程仓库（使用您现有的仓库）
-git remote add origin https://github.com/bairdweng/rc-match-ai.git
+git remote add origin https://github.com/bairdweng/aircmate.git
 
 # 推送代码到main分支
 git branch -M main
@@ -36,7 +36,7 @@ git push -u origin main
 
 ### 第二步：配置GitHub Pages
 
-1. 进入仓库：https://github.com/bairdweng/rc-match-ai
+1. 进入仓库：https://github.com/bairdweng/aircmate
 2. 点击"Settings"选项卡
 3. 左侧选择"Pages"
 4. 在"Source"部分选择"GitHub Actions"
@@ -56,7 +56,7 @@ git push -u origin main
 部署成功后，您的应用将通过以下地址访问：
 
 ```
-https://bairdweng.github.io/rc-match-ai/
+https://bairdweng.github.io/aircmate/
 ```
 
 ## 🛠️ 本地开发

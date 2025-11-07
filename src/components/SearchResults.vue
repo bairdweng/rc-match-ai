@@ -167,6 +167,18 @@ export default defineComponent({
       )
     }
 
+    // 根据品牌和车型名称查找车型信息
+    const findModelByBrandAndModel = (brand, model) => {
+      const brandLower = brand.toLowerCase().trim()
+      const modelLower = model.toLowerCase().trim()
+      
+      return allModels.find(m => 
+        m.brand.toLowerCase().includes(brandLower) && 
+        (m.model.toLowerCase().includes(modelLower) || 
+         m.fullName.toLowerCase().includes(modelLower))
+      )
+    }
+
     // 加载升级记录 - 使用本地数据库数据
     const loadUpgradeRecords = async (modelId) => {
       loading.value = true
@@ -236,8 +248,30 @@ export default defineComponent({
     // }
 
     onMounted(() => {
+      // 处理语义化路由参数：/search/:brand/:model
+      if (route.params.brand && route.params.model) {
+        const brand = route.params.brand.replace(/-/g, ' ')
+        const model = route.params.model.replace(/-/g, ' ')
+        
+        // 根据品牌和车型查找车型
+        const foundModel = findModelByBrandAndModel(brand, model)
+        if (foundModel) {
+          searchQuery.value = foundModel.fullName
+          currentModel.value = {
+            id: foundModel.id,
+            brand: foundModel.brand,
+            model: foundModel.model,
+            fullName: foundModel.fullName,
+            scale: foundModel.scale,
+            drive: foundModel.drive,
+            url: foundModel.url
+          }
+          // 加载该车型的升级记录
+          loadUpgradeRecords(foundModel.id)
+        }
+      }
       // 从路由参数获取车型ID
-      if (route.query.id) {
+      else if (route.query.id) {
         // 根据ID查找车型
         const foundModel = findModelById(route.query.id)
         if (foundModel) {

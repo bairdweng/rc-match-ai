@@ -7,7 +7,7 @@
 #### 验证网站所有权
 1. 访问 [Google Search Console](https://search.google.com/search-console/)
 2. 选择"网址前缀"验证方式
-3. 输入你的网站地址：`https://bairdweng.github.io/rc-match-ai/`
+3. 输入你的网站地址：`https://bairdweng.github.io/aircmate/`
 4. 选择"HTML标签"验证方法
 5. 将验证代码添加到你的网站
 
@@ -22,7 +22,7 @@
 #### 手动检查
 在Google搜索框中输入：
 ```
-site:bairdweng.github.io/rc-match-ai
+site:bairdweng.github.io/aircmate
 ```
 
 #### 使用Search Console查看

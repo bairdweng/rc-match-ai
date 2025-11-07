@@ -18,6 +18,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     
+    env:
+      REPO_NAME: aircmate
+    
     steps:
     - name: Checkout
       uses: actions/checkout@v4
