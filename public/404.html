@@ -8,12 +8,17 @@
       const currentUrl = window.location.href;
       const newBaseUrl = 'https://bairdweng.github.io/aircmate/';
       
-      // 如果是访问rc-match-ai仓库，重定向到aircmate
-      if (currentUrl.includes('rc-match-ai')) {
+      console.log('当前URL:', currentUrl);
+      
+      // 更可靠的重定向检测
+      if (currentUrl.includes('rc-match-ai') || 
+          currentUrl.includes('bairdweng.github.io') && !currentUrl.includes('aircmate')) {
         const newUrl = currentUrl.replace('rc-match-ai', 'aircmate');
+        console.log('重定向到:', newUrl);
         window.location.replace(newUrl);
       } else {
         // 其他情况直接重定向到aircmate主页
+        console.log('直接重定向到主页:', newBaseUrl);
         window.location.replace(newBaseUrl);
       }
     </script>
