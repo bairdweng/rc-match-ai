@@ -19,7 +19,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     
     env:
-      REPO_NAME: aircmate
+      REPO_NAME: rc-match-ai
     
     steps:
     - name: Checkout

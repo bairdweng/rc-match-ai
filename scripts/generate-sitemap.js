@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // 网站基础URL
-const baseUrl = 'https://bairdweng.github.io/rc-match-ai';
+const baseUrl = 'https://bairdweng.github.io/aircmate';
 
 // 定义网站的主要页面
 const pages = [
