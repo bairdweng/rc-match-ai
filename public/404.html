@@ -2,43 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>RC Match AI</title>
+    <title>AircMate - 重定向中...</title>
     <script>
-      // GitHub Pages SPA路由重定向
-      const pathSegments = window.location.pathname.split('/').filter(Boolean);
-      const basePath = '/aircmate/';
+      // 立即重定向到新的aircmate仓库
+      const currentUrl = window.location.href;
+      const newBaseUrl = 'https://bairdweng.github.io/aircmate/';
       
-      // 如果是直接访问子路由，重定向到主页面
-      if (pathSegments.length > 1 || (pathSegments.length === 1 && pathSegments[0] !== 'rc-match-ai')) {
-        // 保存当前路径信息
-        const path = window.location.pathname.replace(basePath, '');
-        const search = window.location.search;
-        const hash = window.location.hash;
-        
-        // 重定向到主页面，并传递路由信息
-        const redirectUrl = basePath + '?redirect=' + encodeURIComponent(path + search + hash);
-        window.location.replace(redirectUrl);
+      // 如果是访问rc-match-ai仓库，重定向到aircmate
+      if (currentUrl.includes('rc-match-ai')) {
+        const newUrl = currentUrl.replace('rc-match-ai', 'aircmate');
+        window.location.replace(newUrl);
       } else {
-        // 直接加载应用
-        window.location.replace(basePath);
+        // 其他情况直接重定向到aircmate主页
+        window.location.replace(newBaseUrl);
       }
     </script>
   </head>
   <body>
-    <div id="app"></div>
+    <div style="text-align: center; margin-top: 50px; font-family: Arial, sans-serif;">
+      <h1>正在重定向到 AircMate...</h1>
+      <p>如果重定向没有自动进行，请 <a href="https://bairdweng.github.io/aircmate/" id="manualRedirect">点击这里</a></p>
+      <p style="color: #666; font-size: 14px;">或者等待几秒钟...</p>
+    </div>
     <script>
-      // 如果重定向参数存在，处理路由
-      const urlParams = new URLSearchParams(window.location.search);
-      const redirectPath = urlParams.get('redirect');
+      // 备用重定向：如果3秒后还没有重定向，手动重定向
+      setTimeout(() => {
+        if (window.location.href.includes('rc-match-ai')) {
+          window.location.replace('https://bairdweng.github.io/aircmate/');
+        }
+      }, 3000);
       
-      if (redirectPath) {
-        // 应用加载后恢复路由
-        window.addEventListener('load', function() {
-          setTimeout(() => {
-            window.history.replaceState(null, '', basePath + redirectPath);
-          }, 100);
-        });
-      }
+      // 手动重定向链接
+      document.getElementById('manualRedirect').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.replace('https://bairdweng.github.io/aircmate/');
+      });
     </script>
   </body>
 </html>
